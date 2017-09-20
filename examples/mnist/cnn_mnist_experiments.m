@@ -3,6 +3,7 @@
 [net_bn, info_bn] = cnn_mnist(...
   'expDir', 'data/mnist-bnorm', 'batchNormalization', true);
 
+%%
 [net_fc, info_fc] = cnn_mnist(...
   'expDir', 'data/mnist-baseline', 'batchNormalization', false);
 
